@@ -3,11 +3,11 @@ const app = express();
 
 //criando a rota inicial
 app.get("/", function(req,res){
-    res.send("<h1>Bem vindo ao meu site!</h1>");
+    res.send("<h1>Bem vindo ao meu site!aaa</h1>");
 })
 
 app.get("/primeirarota", function(req,res){
-    res.send("<h1>Essa é a primeira rota do trabalho!</h1>");
+    res.send("<h1>Essa é a primeira rota do trabalho!aaaa</h1>");
 })
 
 //rota com parametro localhost:3000/consulta/joao
